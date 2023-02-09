@@ -1,0 +1,14 @@
+version: "3"
+services:
+  cart:
+    build: ./cart
+    ports:
+      - 3001:3001
+  products:
+    build: ./products
+    ports:
+      - 3002:3002
+  shopping:
+    build: ./shopping
+    ports:
+      - 3000:3000

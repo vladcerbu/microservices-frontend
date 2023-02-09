@@ -1,0 +1,7 @@
+.shopping_component{
+    display: block;
+}
+
+.shopping_component--hidden{
+    display: none;
+}

@@ -1,0 +1,20 @@
+.products_product--wrapper{
+    width: 20vw;
+    min-width: 250px;
+    max-width: 400px;
+    align-self: center;
+    justify-self: center;
+}
+
+.products_product--image{
+    max-height: 30vh;
+    min-height: 200px;
+    width: 10px;
+}
+
+.products_product--actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1rem;
+}

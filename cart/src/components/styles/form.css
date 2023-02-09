@@ -1,0 +1,15 @@
+.cart_form{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.cart_form--bottom{
+    margin-top: 2rem;
+}

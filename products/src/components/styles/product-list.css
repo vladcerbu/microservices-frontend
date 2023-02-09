@@ -1,0 +1,13 @@
+.products--wrapper{
+    width: 100%;
+    display: grid;
+    row-gap: 1.5rem;
+    column-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.products--cart{
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+}
